@@ -1,0 +1,18 @@
+°Criar um menu fixo;
+°Colocar 5 links no menu(um deve ser âncora);
+°Colocar FavIcon;
+°Colocar no index.html metadata(autor, palavras-chave e conteúdo);
+ →Links:
+  »Imagens[imagens.html]
+   >imagens de queijos
+  »Utilizar âncora> notícias(colocar um iframe com links do youtube)[index.html]
+   >noticias sobre queijos
+  »Desenvolvedor[desenvolvedor.html]
+   >minha biografia
+  »Tabela e lista[tabela.html]
+   >tabela e lista de tipos de queijos
+  »Formulário[formulário.hmtl]
+   >2 formulários, um para contato e outro para receber doações
+   >formatá-los com CSS
+   >veja no site de Rômulo as opções básicas
+
