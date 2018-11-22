@@ -14,5 +14,11 @@ body{
 
 }
 .galeria2{
-    
+
+}
+.tituloimagem{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    top: 50px;
 }
