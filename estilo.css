@@ -3,9 +3,10 @@ body{
       background-position: center;
 }
 #menufixo{
+    right: 0px;
     position: fixed;
     background-color: yellow;
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 160px;
     margin: 30px;
 }
