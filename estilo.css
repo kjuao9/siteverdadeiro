@@ -22,3 +22,19 @@ body{
     width: 50px;
     top: 50px;
 }
+h1{
+    color: yellow;
+}
+#postagem{
+    background-color: gainsboro;
+    font-size: 20px;
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+.titulonoticia{
+    width: auto;
+    height: 50px;
+    /* background-color: bisque; */
+    text-align: center;
+    font-size: 30px;
+    color: #f7e600;
+}
