@@ -17,9 +17,88 @@
     <a href="formulario.html">Formulário</a></br></br>
     <a href="desenvolvedor.html">Desenvolvedor</a></br></br>
 </div>
-  <div>
-    <p>Corpo da página</p>
+ <h1 align="left">Contato</h1>
+  <div id="formulariocontato">
+<form>
+  <p align="left">
+    <label for="nomecompleto">Nome Completo: </label>
+    <input size="25px" type="text" name="nomecompleto">
+  </p>
+  <p align="left">
+    <label for"email">   E-mail:    </label>
+    <input size="33px" type="email" name="email" id="email">
+  </p>
+  <p align="left">
+    <label for"numero">Telefone: </label>
+    <input size="21px" type="number" id="numero">
+  </p>
+  <p align="left">
+    <label for"endereco">Endereço: </label>
+    <input size="19px" type="text" name="endereco">
+  </p>
+  <p align="left">
+  <input type="submit" name="Enviar" value="Enviar">
+  <input type="reset" name="Limpar" value="Limpar">
+  </p>
+</form>
   </div>
-  <div>Rodapé</div>
+  <h1 align="left">Doações</h1>
+  <div id="formulariodoacoes">
+    <form>
+      <table border="2" width="50%">
+      <tr>
+        <td>Forma de Pagamento/Parcelas:</td>
+        <td><label></label>
+          <select name="cartao" id="cartao">
+            <option value="visa">Visa</option>
+            <option value="master">MasterCard</option>
+            <option value="ae">American Express</option>
+          </select>
+        </td>
+        <td>
+            <label></label>
+            <select name="parcelas" id="parcelas">
+              <option value="1">1 Parcela</option>
+              <option value="2">2 Parcelas</option>
+              <option value="3">3 Parcelas</option>
+              <option value="4">4 Parcelas</option>
+              <option value="5">5 Parcelas</option>
+            </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Número do Cartão:</td>
+          <td><input type="number" id="numerocartao"></td>
+            <td>Números apenas</td>
+      </tr>
+      <tr>
+          <td>Validade</td>
+            <td><input type="month" id="validade" name="validade"></td>
+              <td>Digite a data de Vencimento</td>
+        </tr>
+        <tr>
+            <td>Código de Segurança</td>
+              <td><input type="number" id="codigo"></td>
+                <td>3 digitos de segurança do cartão</td>
+          </tr>
+          <tr>
+              <td>Nome Impresso no Cartão</td>
+                <td><input type="text" name="nomecartao"></td>
+                  <td>Digite todo o seu nome</td>
+            </tr>
+            <tr>
+              <td>
+                  <input type="submit" name="Enviar" value="Enviar">
+              </td>
+              <td>
+               
+              </td>
+              <td>
+                  <input type="reset" name="Limpar" value="Limpar">
+              </td>
+            </tr>
+    </table>
+    </form>
+  </div>
 </body>
 </html>
