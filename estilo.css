@@ -1,7 +1,4 @@
-body{
-    /* background-image: url("imagens/queijo2.jpeg"); */
-      background-position: center;
-}
+
 #menufixo{
     right: 0px;
     position: fixed;
@@ -22,9 +19,9 @@ body{
     width: 50px;
     top: 50px;
 }
-/* h1{ */
-    /* color: yellow; */
-/* } */
+ h1{
+     color: #838626;
+ }
 #postagem{
     background-color: gainsboro;
     font-size: 20px;
@@ -38,8 +35,12 @@ body{
     font-size: 30px;
     color: #f7e600;
 }
-.tituloformulario{
-    text-align: center;
-}
-/* #formulariocontato{ */
-/* } */
+ #formulariocontato{
+   color: ;
+ }
+ #formulariodoacoes{
+   color: red;
+ }
+ table{
+   background-color: white;
+ }
