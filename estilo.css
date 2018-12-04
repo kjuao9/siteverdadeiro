@@ -4,7 +4,7 @@
     position: fixed;
     background-color: yellow;
     width: 100px;
-    height: 160px;
+    height: 240px;
     margin: 30px;
 }
 .galeria1{
@@ -40,3 +40,18 @@
  table{
    background-color: white;
  }
+ a{
+   text-decoration: none;
+ }
+ a:link {
+     color: #00FFFF;
+ }
+ a:visited {
+    color: #0000FF;
+}
+a:hover {
+    color: #FF00FF;
+}
+a:active {
+    color: #FF0000;
+}
