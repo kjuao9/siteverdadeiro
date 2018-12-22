@@ -1,2 +1,2 @@
 # siteverdadeiro
-Esse aqui que é o site verdadeiro porque a anta adicionou a pasta errada
+esse aqui q é o site verdadeiro pq a anta adicionou a pasta errada
